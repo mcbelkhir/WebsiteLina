@@ -1,0 +1,282 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    background: #f2f2f2;
+}
+
+nav {
+    background: #FF99CC; 
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff7043; 
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+input, button {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    background: #FF99CC; 
+    color: white;
+    border: none;
+    border-radius: 8px; 
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #ff7043; 
+    transform: scale(1.05);
+}
+
+/* Slider */
+.slider {
+    width: 50%;
+    max-height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.slide {
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    display: none;
+}
+
+/* Menu-items */
+.menu-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin: 15px auto;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+/* Sfeer-galerij */
+.sfeer-galerij {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.sfeer-galerij img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s, filter 0.3s;
+    cursor: pointer;
+}
+
+.sfeer-galerij img:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+/* Home-foto's */
+.home-fotos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.foto-item {
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.foto-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.foto-item img:hover {
+    transform: scale(1.05);
+}
+
+.foto-item p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Reservatie-foto's */
+.reservatie-fotos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.reservatie-fotos .foto-item {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.reservatie-fotos img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.reservatie-fotos img:hover {
+    transform: scale(1.05);
+}
+
+.reservatie-fotos p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+/* Algemeen */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kader om de inhoud */
+.content-container {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px; /* Optioneel, voor grotere schermen */
+    border: 5px solid #FF99CC; /*  kader */
+    border-radius: 15px; /* Afgeronde hoeken */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Zachte schaduw voor diepte */
+}
+
+/* Header stijlen */
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Foto-items */
+.home-fotos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.foto-item {
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.foto-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.foto-item img:hover {
+    transform: scale(1.05);
+}
+
+.foto-item p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+/* Footer */
+.site-footer {
+    background: #FF99CC;
+    margin-top: 30px;
+    padding: 25px 20px;
+    border-top: 3px solid white;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-item {
+    flex: 1 1 250px;
+    text-align: center;
+    color: white;
+}
+
+.footer-item h3 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-item p {
+    margin: 6px 0;
+    color: white;
+    line-height: 1.6;
+}
+
+.footer-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-item a:hover {
+    color: #ff7043;
+}
+.site-footer {
+    background: #FF99CC;
+    margin: 30px auto 0;
+    padding: 25px 20px;
+    max-width: 100%;
+    border-radius: 15px;
+}

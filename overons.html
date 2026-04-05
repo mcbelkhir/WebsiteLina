@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lina’s Corner - Over ons</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="overons.html">Over ons</a>
+    <a href="reservatie.html">Reservatie</a>
+</nav>
+
+<!-- Container voor de inhoud -->
+<div class="content-container">
+    <h1>Over ons</h1>
+    <p>
+		Lina’s Corner is een knusse lunchroom geboren uit de liefde voor goed eten en een warme sfeer. 
+		Opgericht door Lina, die haar droom om een plek te creëren waar je je thuis voelt, waarmaakt. 
+		In onze lunchroom draait alles om versheid, gezelligheid en genieten van heerlijke gerechten in een huiselijke setting.
+		Van verse broodjes tot huisgemaakte taarten, elke dag bieden we iets nieuws en lekkers. 
+		We willen dat je bij ons even ontsnapt aan de drukte, samen met vrienden of gewoon voor jezelf.
+		Welkom bij Lina’s Corner, jouw favoriete plek voor een moment van rust en smaak.
+</p>
+
+    <h2>Onze sfeer</h2>
+    <div class="sfeer-galerij">
+        <img src="images/sfeer1.jpg" alt="Sfeer cafe 1" title="Decoratie">
+        <img src="images/sfeer2.jpg" alt="Sfeer cafe 2" title="Gezellige setting">
+        <img src="images/sfeer3.jpg" alt="Sfeer cafe 3" title="Voor ieder wat wils">
+    </div>
+
+    <h2>Reviews</h2>
+    <div id="reviews">Nog geen reviews.</div>
+
+    <h3>Schrijf een review</h3>
+
+    <input type="text" id="reviewNaam" placeholder="Je naam"><br><br>
+    <input type="email" id="reviewEmail" placeholder="Je e-mail"><br><br>
+
+    <label>Sterren:</label><br>
+    <select id="reviewSterren">
+        <option value="5">⭐⭐⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="1">⭐</option>
+    </select><br><br>
+
+    <textarea id="reviewTekst" placeholder="Je review"></textarea><br><br>
+
+    <button onclick="voegReviewToe()">Plaats review</button>
+</div>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-item">
+            <B>Contact</B>
+            <p>Willem Eggertstraat 69<br>1441 CJ Purmerend</p>
+            <p><a href="mailto:info@linascorner.nl">info@linascorner.nl</a> &nbsp;06 12 345 678</p>
+            
+        </div>
+
+        <div class="footer-item">
+            <B>Werken bij ons?</B>
+            <p><a href="mailto:werken@linascorner.nl">werken@linascorner.nl</a></p>
+        </div>
+
+        <div class="footer-item">
+            <B>Openingstijden</B>
+            <p>Maandag - zondag 07:00 tot 23:00</p>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
